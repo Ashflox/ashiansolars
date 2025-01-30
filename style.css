@@ -5,7 +5,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background-image: url(blue-curve-frame-template_53876-116707.avif);
+    background-image: url(bgforblue.jpg);
+    background-size: cover;
 }
 .top-outer{
     background-color:skyblue;
