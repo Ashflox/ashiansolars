@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(blue-curve-frame-template_53876-116707.avif);
+}
+.top-outer{
+    background-color:skyblue;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-image: url(Gemini_Generated_Image_4fgaty4fgaty4fga.jfif);
+}
+.inside-text-box{
+    height: 120px;
+    width:60vw;
+    color: white    ;
+}
+.solar-sloutions{
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+.quality-solar{
+    text-align:center;
+    
+}
+.outer-image-box{
+    height: 80vh;
+    width:80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.solar-image1{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 250px;
+    margin: 30px;
+    background-image: url(solarprice2.png);
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.solar-image2{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 250px;
+    margin: 30px;
+    background-image: url(solarprice5.webp);
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.solar-image3{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 250px;
+    margin: 30px;
+    background-image:url(solarprice1.webp);
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+@media screen and (max-width:1190px){
+    .outer-image-box{
+        flex-wrap: wrap;
+    }
+}
+.price-button{
+    height: 50px;
+    margin-top:18.5rem;
+    background-color: white;
+    border-top: 1px solid black;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+}
